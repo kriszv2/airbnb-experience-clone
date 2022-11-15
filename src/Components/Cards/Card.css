@@ -1,6 +1,8 @@
+
 .card{
     padding:20px;
     width:200px;
+    position:relative;
 }
 .card-stats{
     display: flex;
@@ -26,4 +28,13 @@
 }
 .country{
     padding-left:3px;
+}
+.card--badge{
+    position: absolute;
+    top:30px;
+    left:30px;
+    background-color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: bold;
 }

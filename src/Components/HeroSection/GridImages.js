@@ -2,7 +2,7 @@ import "./GridImages.css";
 
 export default function GridImages() {
   return (
-    <div className="container">
+    <div>
       <table>
         <tbody>
           <tr>
